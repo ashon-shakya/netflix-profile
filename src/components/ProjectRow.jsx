@@ -2,7 +2,6 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import ShinyText from "./ShinyText/ShinyText";
 
 const ProjectRow = ({ title, projects, id, handleMoreInfoClick, type }) => {
   return (

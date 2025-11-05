@@ -3,8 +3,6 @@
 import React from "react";
 import heroBg from "../assets/bg2.jpg";
 
-import { GridScan } from "./GridScan/GridScan";
-
 const Hero = ({ handleMoreInfoClick, contact, id }) => {
   return (
     <div className="relative h-[80vh] text-white" id={id}>
