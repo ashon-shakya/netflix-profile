@@ -25,6 +25,13 @@ export const contact = {
     youtube: "https://www.youtube.com/@ashonshakya",
     instagram: "https://www.instagram.com/ashon.shakya/",
   },
+  trailer: {
+    title: "Trailer",
+    videoUrl: "/assets/ashon_trailer_2.mp4",
+    poster: "/assets/bg3.jpg",
+    description:
+      "In a shadowy server room, software engineer Ashon Shakya pushes the final build of his latest creation. The deploy succeeds, but as the terminal’s cursor blinks in the dark, one question hangs in the air: after crafting the experience, what comes next?",
+  },
   // Updated skill data (just names)
   skills: [
     "Node.js",
