@@ -53,12 +53,33 @@ export const contact = {
   featuredProjects: [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce site with payment integration.",
-      tech: ["React", "Node.js", "Stripe"],
-      imageUrl: "/assets/project1.jpg",
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Resume Builder",
+      description:
+        "A modern web application for creating, editing, and exporting professional resumes. Built with React and Vite, featuring multiple export formats (PDF, Word, HTML) and a responsive design powered by Tailwind CSS.",
+      tech: ["React", "Vite", "Tailwind CSS", "Bootstrap", "Framer Motion"],
+      imageUrl: "/assets/projects/resume.png",
+      liveUrl: "https://resume-builder-kohl-mu.vercel.app/",
+      githubUrl: "https://github.com/ashon-shakya/resume-builder",
+    },
+    {
+      id: 2,
+      title: "ClickUp Task Dashboard",
+      description:
+        "A modern React app that lists ClickUp tasks by workspace and assignee with dynamic filtering, assignee badges, and a sleek bluish-black UI.",
+      tech: ["React", "Tailwind CSS", "Axios", "Lucide React"],
+      imageUrl: "/assets/projects/clickup.png",
+      liveUrl: "https://clickup-dashboard-eta.vercel.app/",
+      githubUrl: "https://github.com/ashon-shakya/clickup-dashboard",
+    },
+    {
+      id: 3,
+      title: "Tailwind DaisyUI Portfolio",
+      description:
+        "A modern, responsive portfolio built with React 19, Vite, Tailwind CSS 4, and DaisyUI. Features fast HMR, beautiful components, React Icons, and ESLint for clean code.",
+      tech: ["React", "Vite", "Tailwind CSS", "DaisyUI", "React Icons"],
+      imageUrl: "/assets/projects/tailwind-portfolio.png",
+      liveUrl: "https://tailwind-daisyui-portfolio.vercel.app/",
+      githubUrl: "https://github.com/ashon-shakya/tailwind-daisyui-portfolio",
     },
     {
       id: 1,
@@ -125,7 +146,23 @@ export const contact = {
     {
       id: 1,
       title: "Senior Software Engineer",
-      imageUrl: "/assets/project1.jpg",
+      imageUrl: "/assets/works/rebb-tech.png",
+
+      company: "Galli Express Pvt. Ltd.",
+      location: "Nepal",
+      dates: "2023 - Present",
+      responsibilities: [
+        "Lead full-cycle API-to-UI development, including requirements, coding, deployment, and support.",
+        "Analysed client needs for innovative navigation solutions.",
+        "Employed Node.js and TypeScript for efficient API development, leveraging Node.js's asynchronous architecture with utilizing Python scripts for data extraction.",
+        "Employed Azure Function App for Node deployment and Implemented Blob Storage for image retrieval.",
+      ],
+      tech: ["Node.js", "TypeScript", "Python", "Azure"],
+    },
+    {
+      id: 1,
+      title: "Senior Software Engineer",
+      imageUrl: "/assets/works/galli-express.png",
 
       company: "Galli Express Pvt. Ltd.",
       location: "Nepal",
@@ -141,7 +178,7 @@ export const contact = {
     {
       id: 2,
       title: "Technical Lead",
-      imageUrl: "/assets/project1.jpg",
+      imageUrl: "/assets/works/javra.png",
       company: "Javra Software",
       location: "Nepal / Netherlands",
       dates: "2019 - 2023",
@@ -178,7 +215,7 @@ export const contact = {
     {
       id: 3,
       title: "Software Engineer",
-      imageUrl: "/assets/project1.jpg",
+      imageUrl: "/assets/works/javra.png",
       company: "Javra Software",
       location: "Nepal / Netherlands",
       dates: "2016 - 2019",
@@ -194,7 +231,7 @@ export const contact = {
     {
       id: 4,
       title: "IT/ Graphic Designer",
-      imageUrl: "/assets/project1.jpg",
+      imageUrl: "/assets/works/sxg.png",
       company: "St. Xavier's School, Godavari",
       location: "Nepal",
       dates: "2015 - 2016",
