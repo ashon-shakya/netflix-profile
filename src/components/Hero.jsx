@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 
 import React from "react";
-import heroBg from "../assets/bg2.jpg";
+import heroBg from "../assets/bg3.jpg";
 
 const Hero = ({ handleMoreInfoClick, contact, id }) => {
   return (
@@ -42,7 +42,20 @@ const Hero = ({ handleMoreInfoClick, contact, id }) => {
           {contact.title} | {contact.motto}.
         </p>
         <div className="mt-6 flex space-x-4">
-          <button className="bg-white text-black font-bold py-2 px-6 rounded hover:bg-gray-200 transition">
+          <button
+            className="bg-white text-black font-bold py-2 px-6 rounded hover:bg-gray-200 transition"
+            onClick={() =>
+              handleMoreInfoClick(
+                {
+                  title: "Trailer",
+                  videoUrl: "/assets/ashon_trailer_2.mp4",
+                  poster: "/assets/bg3.jpg",
+                  description: "Ashon Shakya Trailer",
+                },
+                "video"
+              )
+            }
+          >
             ▶ Play Resume
           </button>
           <button

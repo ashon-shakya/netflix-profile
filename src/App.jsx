@@ -49,7 +49,7 @@ function App() {
           key="project-project"
         />
         <ProjectRow
-          title="Web Applications"
+          title="Customer Projects"
           projects={contact.webAppProjects}
           id="web-applications"
           handleMoreInfoClick={handleMoreInfoClick}

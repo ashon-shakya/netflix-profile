@@ -94,7 +94,7 @@ Go to the `src/assets/` folder and replace the images with your own:
 
 - `logo.jpg`: Your personal logo (or initials)
 - `profile-icon.jpg`: Your profile icon
-- `bg2.jpg`: The main hero background image
+- `bg3.jpg`: The main hero background image
 - `project1.jpg`, `project2.jpg`, etc.: Thumbnails for your projects and work experience
 
 Make sure the `imageUrl` in your `contact-detail.js` file matches your new filenames.
