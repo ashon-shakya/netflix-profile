@@ -102,8 +102,8 @@ export const contact = {
       id: 6,
       title: "Who Wants to be a Millionaire",
       description:
-        "A modern AI-powered chat application built with React 19 and Vite. Integrates the Gemini API for intelligent, real-time conversations. Features a fast, responsive UI styled with Tailwind CSS and maintains clean code",
-      tech: ["React", "Vite", "Tailwind CSS", "Gemini API"],
+        'A fun, nostalgic web-based trivia game inspired by the iconic TV show "Who Wants to Be a Millionaire?"',
+      tech: ["HTML", "CSS3", "JavaScript"],
       imageUrl: "/assets/projects/millionaire.png",
       liveUrl: "https://ashon-shakya.github.io/millionaire-quiz/",
       githubUrl: "https://github.com/ashon-shakya/millionaire-quiz",
