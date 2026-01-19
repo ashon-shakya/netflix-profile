@@ -100,6 +100,16 @@ export const contact = {
     },
     {
       id: 6,
+      title: "Who Wants to be a Millionaire",
+      description:
+        "A modern AI-powered chat application built with React 19 and Vite. Integrates the Gemini API for intelligent, real-time conversations. Features a fast, responsive UI styled with Tailwind CSS and maintains clean code",
+      tech: ["React", "Vite", "Tailwind CSS", "Gemini API"],
+      imageUrl: "/assets/projects/millionaire.png",
+      liveUrl: "https://ashon-shakya.github.io/millionaire-quiz/",
+      githubUrl: "https://github.com/ashon-shakya/millionaire-quiz",
+    },
+    {
+      id: 7,
       title: "Tailwind CSS Cheatsheet",
       description:
         "A comprehensive, interactive Tailwind CSS utility classes cheatsheet by Dented Code Academy. Features visual examples of key classes in a themed card layout with dark mode, blue/red accents, and responsive design. Built as a single HTML file using Tailwind via CDN.",
@@ -138,19 +148,20 @@ export const contact = {
   workExperience: [
     {
       id: 1,
-      title: "Senior Software Engineer",
+      title: "Software Engineer",
       imageUrl: "/assets/works/rebb-tech.png",
 
-      company: "Galli Express Pvt. Ltd.",
-      location: "Nepal",
-      dates: "2023 - Present",
+      company: "Rebb Tech Pty Ltd",
+      location: "NSW, Australia",
+      dates: "2024 - Present",
       responsibilities: [
-        "Lead full-cycle API-to-UI development, including requirements, coding, deployment, and support.",
-        "Analysed client needs for innovative navigation solutions.",
-        "Employed Node.js and TypeScript for efficient API development, leveraging Node.js's asynchronous architecture with utilizing Python scripts for data extraction.",
-        "Employed Azure Function App for Node deployment and Implemented Blob Storage for image retrieval.",
+        "Led MERN stack job portal development from architecture to deployment",
+        "Built scalable, responsive software meeting client needs and industry standards",
+        "Mentored junior developers through code reviews and knowledge sharing",
+        "Implemented CI/CD pipelines for streamlined deployments",
+        "Designed modular React/Node.js architecture for enhanced maintainability",
       ],
-      tech: ["Node.js", "TypeScript", "Python", "Azure"],
+      tech: ["Node.js", "TypeScript", "Python", "AWS", "MongoDB"],
     },
     {
       id: 1,
@@ -166,7 +177,15 @@ export const contact = {
         "Employed Node.js and TypeScript for efficient API development, leveraging Node.js's asynchronous architecture with utilizing Python scripts for data extraction.",
         "Employed Azure Function App for Node deployment and Implemented Blob Storage for image retrieval.",
       ],
-      tech: ["Node.js", "TypeScript", "Python", "Azure"],
+      tech: [
+        "Node.js",
+        "TypeScript",
+        "Python",
+        "Azure",
+        "MongoDB",
+        "Shell Script",
+        "Postgres",
+      ],
     },
     {
       id: 2,
