@@ -128,6 +128,16 @@ export const contact = {
       liveUrl: "https://dsa-visualizer-rho-sandy.vercel.app/",
       githubUrl: "https://github.com/ashon-shakya/dsa-visualizer",
     },
+    {
+      id: 9,
+      title: "Weather Application",
+      description:
+        "A real-time weather tracking application providing instant forecasts. Features a search functionality to check weather conditions for different cities, displaying key metrics like temperature, humidity, wind speed, and rain probability in a clean, responsive interface.",
+      tech: ["HTML", "CSS", "JavaScript", "Weather API"],
+      imageUrl: "/assets/projects/weather-app.png",
+      liveUrl: "https://ashon-shakya.github.io/weather-app/",
+      githubUrl: "https://github.com/ashon-shakya/weather-app",
+    },
   ],
   webAppProjects: [
     {
