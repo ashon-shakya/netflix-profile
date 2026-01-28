@@ -118,7 +118,16 @@ export const contact = {
       liveUrl: "https://tailwind-demo-cheatsheet.vercel.app/",
       githubUrl: "https://github.com/ashon-shakya/tailwind-demo-cheatsheet",
     },
-    // Add more projects
+    {
+      id: 8,
+      title: "DSA Visualizer",
+      description:
+        "An interactive, animated React application for learning Data Structures and Algorithms. Features visualizations for Linear (Arrays, Lists, Stacks, Queues), Non-Linear (Trees, BST, AVL, Graphs), and Algorithms (Sorting, Searching, DP), wrapped in a responsive UI with Dark Mode support.",
+      tech: ["React", "Tailwind CSS", "Framer Motion", "Lucide React"],
+      imageUrl: "/assets/projects/dsa.png",
+      liveUrl: "https://dsa-visualizer-rho-sandy.vercel.app/",
+      githubUrl: "https://github.com/ashon-shakya/dsa-visualizer",
+    },
   ],
   webAppProjects: [
     {
