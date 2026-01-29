@@ -56,6 +56,18 @@ export const contact = {
     "Illustrator",
     "Premier Pro",
   ],
+  largeScaleProject: [
+    {
+      id: 1,
+      title: "CupQuest",
+      description:
+        "The ultimate social prediction game for the FIFA World Cup 2026. Create private leagues, compete on global leaderboards, and prove your football knowledge with live scoring and real-time updates.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Auth.js"],
+      imageUrl: "/assets/projects/cup-quest.jpg",
+      liveUrl: "https://worldcup-2026.vercel.app",
+      githubUrl: "https://github.com/ashon-shakya/worldcup-2026",
+    },
+  ],
 
   featuredProjects: [
     {

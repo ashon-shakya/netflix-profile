@@ -41,6 +41,14 @@ function App() {
           key="project-experience"
         />
         <ProjectRow
+          title="Large Scale Projects"
+          projects={contact.largeScaleProject}
+          id="large-scale-projects"
+          handleMoreInfoClick={handleMoreInfoClick}
+          type="project"
+          key="project-project"
+        />
+        <ProjectRow
           title="Featured Projects"
           projects={contact.featuredProjects}
           id="featured-projects"
