@@ -20,7 +20,7 @@ export const contact = {
             supportive experience.`,
   copyright: `${new Date().getFullYear()} ${name}. All Rights Reserved.`,
   socials: {
-    linkedin: "www.linkedin.com/in/ashon-shakya",
+    linkedin: "https://www.linkedin.com/in/ashon-shakya",
     github: "https://github.com/ashon-shakya",
     youtube: "https://www.youtube.com/@ashonshakya",
     instagram: "https://www.instagram.com/ashon.shakya/",
