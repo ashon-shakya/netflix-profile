@@ -212,6 +212,7 @@ export const contact = {
         "Designed modular React/Node.js architecture for enhanced maintainability",
       ],
       tech: ["Node.js", "TypeScript", "Python", "AWS", "MongoDB"],
+      site: "https://rebbtech.com.au/",
     },
     {
       id: 1,
@@ -236,6 +237,7 @@ export const contact = {
         "Shell Script",
         "Postgres",
       ],
+      site: "https://gallimaps.com/",
     },
     {
       id: 2,
@@ -273,6 +275,7 @@ export const contact = {
         },
       ],
       tech: ["Node.js", "TypeScript", "Python", "MongoDB"],
+      site: "https://www.javra.com/",
     },
     {
       id: 3,
@@ -289,6 +292,7 @@ export const contact = {
         "Proficiently coded and provided support using OpenEdge Progress 4GL, JavaScript, and HTML5, ensuring efficient development and maintenance of the system.",
       ],
       tech: ["Progress 4GL", "JavaScript", "HTML5", "ERP"],
+      site: "https://www.javra.com/",
     },
     {
       id: 4,
@@ -304,6 +308,7 @@ export const contact = {
         "Supported the existing legacy system for student management and provided research on upgrades with new technology.",
       ],
       tech: ["WordPress", ".NET", "Graphic Design", "Legacy Systems"],
+      site: "https://www.sxg.edu.np/",
     },
   ],
 };

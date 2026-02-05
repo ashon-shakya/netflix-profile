@@ -3,6 +3,7 @@
 import React from "react";
 
 const ProjectCard = ({ project, handleMoreInfoClick, type }) => {
+  console.log({ project, type });
   return (
     <>
       <div
@@ -50,24 +51,37 @@ const ProjectCard = ({ project, handleMoreInfoClick, type }) => {
                 </span>
               ))}
             </div>
-            <div className="mt-4 flex space-x-4">
-              <a
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-red-500 hover:underline"
-              >
-                Live Demo
-              </a>
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-red-500 hover:underline"
-              >
-                GitHub
-              </a>
-            </div>
+            {type !== "experience" ? (
+              <div className="mt-4 flex space-x-4">
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 hover:underline"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 hover:underline"
+                >
+                  GitHub
+                </a>
+              </div>
+            ) : (
+              <div className="mt-4 flex space-x-4">
+                <a
+                  href={project.site}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 hover:underline"
+                >
+                  Website
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>
