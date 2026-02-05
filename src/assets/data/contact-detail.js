@@ -67,6 +67,25 @@ export const contact = {
       liveUrl: "https://worldcup-2026.vercel.app",
       githubUrl: "https://github.com/ashon-shakya/worldcup-2026",
     },
+    {
+      id: 2,
+      title: "OurWallet",
+      description:
+        "A personal finance web app to track income, expenses, partners, and records. Features CSV import, dashboards with analytics, user authentication, theme toggle, and partner verification.",
+      tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Axios",
+      ],
+      imageUrl: "/assets/projects/ourwallet.jpg",
+      liveUrl: "https://www.ourwallet.ashonshakya.com.np",
+      githubUrl: "https://github.com/ashon-shakya/joint-fintrack.git",
+    },
   ],
 
   featuredProjects: [
