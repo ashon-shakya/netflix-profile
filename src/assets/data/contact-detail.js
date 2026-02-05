@@ -83,7 +83,7 @@ export const contact = {
         "Axios",
       ],
       imageUrl: "/assets/projects/ourwallet.jpg",
-      liveUrl: "https://www.ourwallet.ashonshakya.com.np",
+      liveUrl: "https://ourwallet.ashonshakya.com.np",
       githubUrl: "https://github.com/ashon-shakya/joint-fintrack.git",
     },
   ],
