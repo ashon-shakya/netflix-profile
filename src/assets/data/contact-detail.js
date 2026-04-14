@@ -182,7 +182,7 @@ export const contact = {
         "BroadcastChannel API",
       ],
       imageUrl: "/assets/projects/projection-mapping.png",
-      liveUrl: "https://ashon-shakya.github.io/projection-mapping/",
+      liveUrl: "https://project-mapping-five.vercel.app/",
       githubUrl: "https://github.com/ashon-shakya/projection-mapping",
     },
   ],
