@@ -86,6 +86,22 @@ export const contact = {
       liveUrl: "https://ourwallet.ashonshakya.com.np",
       githubUrl: "https://github.com/ashon-shakya/joint-fintrack.git",
     },
+    {
+      id: 3,
+      title: "ProjMap - Projection Mapping Webapp",
+      description:
+        "A sophisticated web-based projection mapping tool that enables real-time media synchronization and advanced perspective warping. Features a dual-window system using the BroadcastChannel API, allowing users to manipulate images and videos in an editor while projecting a clean, warped output in a separate window. Includes layered media management, individual opacity/volume controls, and intuitive four-point warping.",
+      tech: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Bootstrap",
+        "BroadcastChannel API",
+      ],
+      imageUrl: "/assets/projects/projection-mapping.png",
+      liveUrl: "https://project-mapping-five.vercel.app/",
+      githubUrl: "https://github.com/ashon-shakya/projection-mapping",
+    },
   ],
 
   featuredProjects: [
@@ -168,22 +184,6 @@ export const contact = {
       imageUrl: "/assets/projects/weather-app.png",
       liveUrl: "https://ashon-shakya.github.io/weather-app/",
       githubUrl: "https://github.com/ashon-shakya/weather-app",
-    },
-    {
-      id: 10,
-      title: "ProjMap - Projection Mapping Webapp",
-      description:
-        "A sophisticated web-based projection mapping tool that enables real-time media synchronization and advanced perspective warping. Features a dual-window system using the BroadcastChannel API, allowing users to manipulate images and videos in an editor while projecting a clean, warped output in a separate window. Includes layered media management, individual opacity/volume controls, and intuitive four-point warping.",
-      tech: [
-        "React",
-        "TypeScript",
-        "Vite",
-        "Bootstrap",
-        "BroadcastChannel API",
-      ],
-      imageUrl: "/assets/projects/projection-mapping.png",
-      liveUrl: "https://project-mapping-five.vercel.app/",
-      githubUrl: "https://github.com/ashon-shakya/projection-mapping",
     },
   ],
   webAppProjects: [
