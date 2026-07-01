@@ -88,7 +88,7 @@ export const contact = {
     },
     {
       id: 3,
-      title: "ProjMap - Projection Mapping Webapp",
+      title: "ProjMap - Projection Mapping",
       description:
         "A sophisticated web-based projection mapping tool that enables real-time media synchronization and advanced perspective warping. Features a dual-window system using the BroadcastChannel API, allowing users to manipulate images and videos in an editor while projecting a clean, warped output in a separate window. Includes layered media management, individual opacity/volume controls, and intuitive four-point warping.",
       tech: [
@@ -214,6 +214,22 @@ export const contact = {
   workExperience: [
     {
       id: 1,
+      title: "Consultant",
+      imageUrl: "/assets/works/truuth.svg",
+
+      company: "Truuth",
+      location: "NSW, Australia",
+      dates: "2026 - Present",
+      responsibilities: [
+        "Worked as a consultant contributing to the development of an onboarding portal solution.",
+        "Provided support for document verification and implemented fraud checks.",
+        "Engineered backend solutions utilizing Python, TypeScript, and AWS.",
+      ],
+      tech: ["Python", "TypeScript", "AWS", "Node.js"],
+      site: "https://www.truuth.id/",
+    },
+    {
+      id: 1,
       title: "Software Engineer",
       imageUrl: "/assets/works/rebb-tech.png",
 
@@ -231,7 +247,7 @@ export const contact = {
       site: "https://rebbtech.com.au/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Senior Software Engineer",
       imageUrl: "/assets/works/galli-express.png",
 
@@ -256,7 +272,7 @@ export const contact = {
       site: "https://gallimaps.com/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Technical Lead",
       imageUrl: "/assets/works/javra.png",
       company: "Javra Software",
@@ -294,7 +310,7 @@ export const contact = {
       site: "https://www.javra.com/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Software Engineer",
       imageUrl: "/assets/works/javra.png",
       company: "Javra Software",
@@ -311,7 +327,7 @@ export const contact = {
       site: "https://www.javra.com/",
     },
     {
-      id: 4,
+      id: 5,
       title: "IT/ Graphic Designer",
       imageUrl: "/assets/works/sxg.png",
       company: "St. Xavier's School, Godavari",

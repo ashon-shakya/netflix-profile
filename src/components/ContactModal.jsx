@@ -9,7 +9,7 @@ const ContactModal = ({ onClose, contact }) => {
     >
       {/* Modal content */}
       <div
-        className="bg-[#181818] text-white rounded-lg w-11/12 md:w-3/4 lg:w-2/3 max-h-[90vh] overflow-y-auto p-8"
+        className="bg-[#181818]/60 backdrop-blur-xl border border-white/10 shadow-2xl text-white rounded-lg w-11/12 md:w-3/4 lg:w-2/3 max-h-[90vh] overflow-y-auto p-8"
         onClick={(e) => e.stopPropagation()} // Prevents modal from closing when clicking inside
       >
         <div className="flex justify-between items-center mb-6">

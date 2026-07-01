@@ -9,7 +9,7 @@ const Hero = ({ handleMoreInfoClick, contact, id }) => {
       <img
         src={heroBg}
         alt="Hero Background"
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover opacity-30 select-none pointer-events-none"
       />
 
       {/* <div
@@ -56,7 +56,7 @@ const Hero = ({ handleMoreInfoClick, contact, id }) => {
           </button>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#141414] to-transparent"></div>
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#050505] to-transparent pointer-events-none"></div>
     </div>
   );
 };

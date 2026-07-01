@@ -7,7 +7,8 @@ import ProjectRow from "./components/ProjectRow";
 import Footer from "./components/Footer";
 import { contact } from "./assets/data/contact-detail";
 import InfoModal from "./components/InfoModal";
-import Hyperspeed from "./components/react-bit-components/Hyperspeed";
+import ParticlesBackground from "./components/ParticlesBackground";
+import InteractiveEffects from "./components/InteractiveEffects";
 
 // css
 import "./App.css";
@@ -24,14 +25,20 @@ function App() {
   };
 
   return (
-    <div className="bg-[#141414] text-white min-h-screen">
+    <div className="bg-[#050505] text-white min-h-screen relative overflow-x-hidden">
+      {/* Interactive Constellation Background */}
+      <ParticlesBackground />
+
+      {/* Global custom cursor & sparks canvas */}
+      <InteractiveEffects />
+
       <Navbar />
       <Hero
         id="home"
         contact={contact}
         handleMoreInfoClick={handleMoreInfoClick}
       />
-      <main className="relative pl-4 md:pl-16 py-8">
+      <main className="relative pl-4 md:pl-16 py-8 z-10">
         {/* Foreground content above the hyperspeed background */}
         <div className="relative z-10">
           {/* Add more rows for different categories */}
